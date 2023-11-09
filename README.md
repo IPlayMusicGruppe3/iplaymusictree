@@ -1,8 +1,49 @@
-# React + Vite
+# iPlayMusicTree - Spotify Clone (School Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to iPlayMusicTree, a Spotify clone built using React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+iPlayMusic is a school project aimed at replicating the core functionalities of Spotify. It provides a user-friendly interface for listening to music, creating playlists, and discovering new tracks. The project is built with React to handle the frontend and Tailwind CSS for styling.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/IPlayMusicGruppe3/iPlayMusic.git
+   ```
+
+## Installation
+
+```bash
+ cd iPlayMusic
+ npm install
+```
+
+## Usage
+
+1. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## Technologies
+
+React: A JavaScript library for building user interfaces.
+Tailwind CSS: A utility-first CSS framework for building modern designs.
+
+###
+
+Created by midoch
