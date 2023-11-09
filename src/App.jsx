@@ -1,11 +1,12 @@
-import { useState } from "react";
+import React from "react";
+import Welcome from "./pages/welcome";
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1 className="bg-slate-500">iPlayMusicTree</h1>
-    </>
+    <div>
+      <Welcome />
+    </div>
   );
 }
 
