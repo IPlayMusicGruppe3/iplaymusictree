@@ -44,6 +44,9 @@ iPlayMusic is a school project aimed at replicating the core functionalities of 
 React: A JavaScript library for building user interfaces.
 Tailwind CSS: A utility-first CSS framework for building modern designs.
 
-###
+## Contributing
 
-Created by midoch
+@midoch
+@bennihoej
+@MikkelVHansen69
+@xLytje
