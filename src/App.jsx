@@ -1,5 +1,5 @@
 import React from "react";
-import Welcome from "./pages/welcome";
+import Welcome from "./pages/Welcome";
 import "./App.css";
 
 function App() {
