@@ -21,7 +21,7 @@ iPlayMusic is a school project aimed at replicating the core functionalities of 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/IPlayMusicGruppe3/iPlayMusic.git
+   git clone https://github.com/IPlayMusicGruppe3/iplaymusictree.git
    ```
 
 ## Installation
