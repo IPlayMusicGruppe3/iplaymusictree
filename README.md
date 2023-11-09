@@ -20,24 +20,24 @@ iPlayMusic is a school project aimed at replicating the core functionalities of 
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/IPlayMusicGruppe3/iplaymusictree.git
-   ```
+```bash
+git clone https://github.com/IPlayMusicGruppe3/iplaymusictree.git
+```
 
 ## Installation
 
 ```bash
- cd iPlayMusic
- npm install
+cd iPlayMusic
+npm install
 ```
 
 ## Usage
 
 1. Run the development server:
 
-   ```bash
-   npm run dev
-   ```
+```bash
+npm run dev
+```
 
 ## Technologies
 
