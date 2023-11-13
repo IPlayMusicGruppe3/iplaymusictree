@@ -1,6 +1,8 @@
-import { useState } from "react";
-import "./App.css";
+import React from "react";
+import Welcome from "./pages/WelcomePage";
 import Footer from "./components/Footer";
+import LoginPage from "./pages/LoginPage";
+import "./App.css";
 
 function App() {
   return (
