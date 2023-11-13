@@ -25,6 +25,9 @@ export default {
           fieryRed: "#E54028",
         },
       },
+      boxShadow: {
+        footer: "0px -5px 12.5px 0px rgba(0, 0, 0, 0.15)",
+      },
     },
   },
   variants: {},
