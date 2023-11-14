@@ -86,7 +86,7 @@ const LoginPage = () => {
             <div className="mt-10 flex items-center justify-center">
               <FontAwesomeIcon
                 icon={faFingerprint}
-                className="text-gray-500 hover:text-secondary cursor-pointer"
+                className="text-pink-600 hover:text-secondary cursor-pointer"
                 size="4x"
               />
             </div>
