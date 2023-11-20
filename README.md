@@ -50,3 +50,8 @@ Tailwind CSS: A utility-first CSS framework for building modern designs.
 @bennihoej
 @MikkelVHansen69
 @xLytje
+@MikkelVHansen69
+@waltherbaasch
+@bennihoej
+@LordDothtml
+@kal-kalo
