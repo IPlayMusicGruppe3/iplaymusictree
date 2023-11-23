@@ -105,6 +105,14 @@ const CategoriesPage = () => {
 
   return (
     <div className="flex flex-col">
+      {/* Pink headline above category boxes */}
+      <div
+        className="w-202 h-39 bg-white text-pink-500 text-left font-poppins p-2 ext-transparent bg-clip-text bg-gradient-to-r from-gradient-start to-gradient-end"
+        style={{ fontSize: "32px" }}
+      >
+        Categories
+      </div>
+
       {categories.map((category) => (
         <div key={category.id} className="m-2">
           <div
