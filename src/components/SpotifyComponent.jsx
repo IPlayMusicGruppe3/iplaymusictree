@@ -9,7 +9,6 @@ const SpotifyComponent = () => {
   useEffect(() => {
     const fetchTopTracks = async () => {
       try {
-        // Fetch access token using Client Credentials Flow
         const tokenResponse = await fetch(
           "https://accounts.spotify.com/api/token",
           {
@@ -81,7 +80,7 @@ const SpotifyComponent = () => {
                 </p>
               </div>
             </div>
-            <p className="text-gray-600">{/* Track length goes here */}</p>
+            <p className="text-gray-600"></p>
           </li>
         ))}
       </ul>
