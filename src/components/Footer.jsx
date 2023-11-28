@@ -7,11 +7,11 @@ import Categories from "../images/settings.svg";
 function Footer() {
   return (
     <footer className="flex justify-between w-full h-[65px] bg-white fixed bottom-0 left-0 px-10 shadow-footer dark:bg-additional">
-      <img src={Albums} alt={"Player button"} className="w-4 h-auto" />
-      <img src={Playlist} alt={"Player button"} className="w-3 h-auto" />
-      <img src={Featured} alt={"Player button"} className="w-10 h-auto" />
-      <img src={DarkMode} alt={"Player button"} className="w-4 h-auto" />
-      <img src={Categories} alt={"Player button"} className="w-4 h-auto" />
+      <img src={Albums} alt={"Album button"} className="w-4 h-auto" />
+      <img src={Playlist} alt={"Playlist button"} className="w-3 h-auto" />
+      <img src={Featured} alt={"Featured button"} className="w-10 h-auto" />
+      <img src={DarkMode} alt={"Theme button"} className="w-4 h-auto" />
+      <img src={Categories} alt={"Categories button"} className="w-4 h-auto" />
     </footer>
   );
 }
