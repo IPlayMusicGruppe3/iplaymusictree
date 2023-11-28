@@ -1,9 +1,7 @@
 import React from "react";
 import walkthroughLogo from "../images/walkthroughLogo.svg";
 
-const Heading = ({ headingText, paragraphText, className }) => {
-  const defaultStyles = "text-3xl font-bold text-secondary ml-4 mb-4";
-
+const Heading = ({ headingText, headingText2, paragraphText }) => {
   return (
     <div>
       <img
@@ -13,8 +11,12 @@ const Heading = ({ headingText, paragraphText, className }) => {
       />
       <div className="flex flex-col items-center justify-center mt-20 text-secondary">
         <div className="text-secondary">
-          <h1 className={defaultStyles}>{headingText}</h1>
-          <p className="text-xl p-5">{paragraphText}</p>
+          <h1 className={"text-2xl font-bold text-secondary text-center"}>
+            {headingText}
+            <br></br>
+            {headingText2}
+          </h1>
+          <p className="text-xl p-3 text-center px-6">{paragraphText}</p>
         </div>
       </div>
     </div>
