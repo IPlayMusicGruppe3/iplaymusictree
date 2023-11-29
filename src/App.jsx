@@ -1,12 +1,14 @@
-import React from "react";
-import Welcome from "./pages/WelcomePage";
+
+
 import Footer from "./components/Footer";
-import LoginPage from "./pages/LoginPage";
+
+import Album from "./pages/Album";
 import "./App.css";
 
 function App() {
   return (
     <>
+    <Album/>
       <Footer />
     </>
   );
