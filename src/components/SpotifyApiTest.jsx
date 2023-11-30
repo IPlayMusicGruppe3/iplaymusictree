@@ -30,10 +30,9 @@ const SpotifyComponent = () => {
         const tokenData = await tokenResponse.json();
         const accessToken = tokenData.access_token;
 
-        // Save the access token to localStorage
+    
         localStorage.setItem("spotifyAccessToken", accessToken);
 
-        // Fetch top tracks using the obtained access token
         const response = await fetch(
           "https://api.spotify.com/v1/browse/new-releases?limit=10",
           {
