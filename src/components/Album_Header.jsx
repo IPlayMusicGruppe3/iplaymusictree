@@ -1,6 +1,6 @@
 
 import styled from 'styled-components'
-import Featured from '../components/Album_Featured.jsx'
+import Featured from '../components/Album_Feature.jsx'
 
 const Album_HeaderContainer = styled.div`
 max-width:400px;
