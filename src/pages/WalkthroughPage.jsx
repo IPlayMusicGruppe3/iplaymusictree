@@ -48,7 +48,7 @@ const WalkthroughPage = () => {
         />
 
         <IoIosHeart
-          className={`text-secondary cursor-pointer mx-4 text-7xl rounded-full border-2 border-secondary p-3 ${
+          className={`text-secondary cursor-pointer mx-4 text-7xl rounded-full border-2 p-3 ${
             contentIndex === 1
               ? "bg-primary text-white  border-primary"
               : "bg-white text-black  border-secondary"
@@ -57,7 +57,7 @@ const WalkthroughPage = () => {
         />
 
         <IoIosMusicalNote
-          className={`text-secondary cursor-pointer mx-4 text-7xl rounded-full border-2 border-secondary p-3 ${
+          className={`text-secondary cursor-pointer mx-4 text-7xl rounded-full border-2 p-3 ${
             contentIndex === 2
               ? "bg-primary text-white  border-primary"
               : "bg-white text-black  border-secondary"
